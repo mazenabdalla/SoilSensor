@@ -9,12 +9,12 @@ We used the USB-RS485 adapter from peacefair to connect the PC to the sensor.
 This program uses the pyserial and pymodbus libraries. They can be installed using:
 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Running the program
 Simply run the script using Python >= 3.10. The program loops infinitely, and can be exited using CTRL+C.
 
 ```
-$ python SoilSensor.py
+python SoilSensor.py
 ```
